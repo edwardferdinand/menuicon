@@ -1,0 +1,68 @@
+header{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffe263de;
+    box-shadow: 2px 2px 2px 2px;
+    position: fixed;
+    width: 100%;
+}
+body{
+    background-color: rgb(212, 204, 132);
+}
+nav{
+    margin-top: 10px;
+}
+.Deskripsihome{
+    width: 40%;
+    font-size: 20px;
+    margin-left: 50px;
+    & h1{
+        color: rgb(73, 69, 6);
+    }
+    & h3{
+        color: rgb(126, 119, 60);
+    }
+    & p{
+        color: rgb(109, 99, 11);
+    }
+}
+.home{
+
+    background-image: url(tgs.png);
+    height: 800px;
+    background-size: cover;
+    padding-top: 50px;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: rgb(125, 134, 0);
+    text-decoration: none;
+    transition: 1s;
+    border-radius: 10px 10px 10px 10px;
+}
+nav a:hover{
+    color:rgb(154, 163, 73);
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 5px 5px;
+    margin: 5px;
+    transition: 0.4s;
+}
+.Deskripsihome a{
+    text-decoration: none;
+    color: rgb(255, 254, 245);
+    background-color: rgb(156, 142, 76);
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px;
+    transition: 1s;
+
+}
+.Deskripsihome a:hover{
+    color: rgb(165, 144, 118);
+    background-color: bisque;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px 5px;
+}
