@@ -27,7 +27,6 @@ nav{
     }
 }
 .home{
-
     background-image: url(tgs.png);
     height: 800px;
     background-size: cover;
@@ -65,4 +64,24 @@ nav a:hover{
     background-color: bisque;
     transition: 0.4s;
     box-shadow: 2px 2px 5px 5px;
+}
+
+p{
+    color: rgb(92, 89, 64);
+}
+.about{
+    height: 800px;
+    background-color: antiquewhite;
+}
+.ContainerAbout{
+    background-color: azure;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+}
+.ContainerAbout img{
+    height: 50px;
+    width: 50px;
 }
