@@ -151,17 +151,18 @@ p{
 .profile{
     height: 700px;
     background-color: antiquewhite;
-    padding-top: 1px;
+    padding-top: 25px;
 }
 .ContainerProfile{
     background-color: azure;
     width: 50%;
     margin-left: 25%;
+    margin-top: 0.2%;
     text-align: justify;
     height: 80%;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 50px;
+    padding-top: 125px;
     word-spacing: 7px;
     border-radius: 15px 15px 15px 15px;
 
